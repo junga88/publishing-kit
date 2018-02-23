@@ -17,10 +17,10 @@ npm start
 
 ## build
 ```
-npm build
+npm run build
 ```
 
 ## clean
 ```
-npm clean
+npm run clean
 ```

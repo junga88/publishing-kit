@@ -45,7 +45,7 @@ gulp.task('watch',function(){
   gulp.watch(['source/**/*.html','source/**/*.scss','source/**/*.ejs', 'source/**/*.js'], ['build',reload])
 })
 
-gulp.task('serve',['watch'],function(){
+gulp.task('serve',['build','watch'],function(){
   browserSync({
     notify : false,
     logPrefix : 'BS',
